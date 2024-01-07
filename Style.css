@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* rgb(229,9,20) */
+
+.page1{
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid red;
+    background-image: url("./images/page1-bg-img.jpg");
+}
+
+.header{
+    width: 100%;
+    border: 1px solid blue;
+}
+
+.header-content{
+    width: 80%;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    width: 150px;
+    height: 100px;
+}
+
+.netflix-logo-img{
+    width: 100%;
+    height: 100%;
+    background: rgb(229,9,20);
+}
+
+.header-buttons{
+    border: 2px solid green;
+    display: flex;
+    gap: 1.5rem;
+    /* width: rem; */
+
+}
+
+.login-btn{
+    padding: 0.5rem 1rem;
+    background-color: rgb(20, 20, 20);
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    color: white;
+    
+}
+
+.signup-btn{
+    padding: 0.5rem 1rem;
+    background-color: rgb(229,9,20);
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    color: white;
+}
