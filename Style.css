@@ -16,19 +16,21 @@ body{
 .page1{
     width: 100vw;
     height: 100vh;
-    border: 2px solid red;
+    border: 2px solid rgb(171, 49, 138);
     background-image: url("./images/page1-bg-img.jpg");
+    /* box-shadow: 0px -23px 25px 0px rgba(0, 0, 0, 0.17) inset, 0px -36px 30px 0px rgba(0, 0, 0, 0.15) inset, 0px -79px 40px 0px rgba(0, 0, 0, 0.1) inset, 0px 2px 1px rgba(0, 0, 0, 0.06), 0px 4px 2px rgba(0, 0, 0, 0.09),
+     0px 8px 4px rgba(0, 0, 0, 0.09), 0px 16px 8px rgba(0, 0, 0, 0.09); */
     
 }
 
 .header{
     width: 100%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .header-content{
     width: 80%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -49,7 +51,7 @@ body{
 }
 
 .header-buttons{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     gap: 1.5rem;
     /* width: rem; */
@@ -87,11 +89,11 @@ body{
 
 .main-section{
     width: 100%;
-    border: 2px solid blueviolet;
+    /* border: 2px solid blueviolet; */
 }
 
 .main-section-container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 80%;
     height: 80vh;
     margin: 0 auto;
@@ -140,6 +142,12 @@ body{
     width: 400px;
     height: 50px;
     outline: none;
+    border-radius: 0.4rem;
+    border: none;
+    font-size: 1rem;
+    /* margin-left: 1rem; */
+    text-align: center;
+
 }
 
 .main-sec-btn{
@@ -156,8 +164,63 @@ body{
 
 }
 
+.page2{
+    width: 100%;
+    border: 1px solid red;
+    background-color: rgb(31, 31, 31);
+}
+
+.secnod-sec-full-width{
+    margin: 1rem 0;
+    width: 100%;
+    border: 1px solid blue;
+    background-color: black;
+}
+
+.second-sec-container{
+    width: 80%;
+    border: 2px solid purple;
+    margin: 0 auto;
+    display: flex;
+}
+
+.left-content{
+    width: 50%;
+    border:  1px solid yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.second-sec-heading{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+
+.second-sec-para{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
 
 
+}
+
+.right-content{
+    width: 50%;
+    border:  1px solid rgb(58, 118, 59);
+}
+
+.second-sec-img-container{
+    width: 100%;
+    height: 400px;
+}
+
+.tv-img{
+    width: 100%;
+    height: 100%;
+}
 
 
 
@@ -203,5 +266,26 @@ body{
    width: 100px;
    height: 40px;
    font-size: 0.9rem;
+  }
+
+  .second-sec-container{
+    flex-direction: column;
+  }
+
+  .left-content{
+    width: 100%;
+    text-align: center;
+  }
+
+  .right-content{
+    width: 100%;
+  }
+
+  .second-sec-heading{
+    font-size: 2rem;
+  }
+
+  .second-sec-para{
+    font-size: 1.12rem;
   }
 }
